@@ -11,15 +11,30 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="./css/style.css" />
-		<title>Document</title>
+		<title>Form</title>
 	</head>
 	<body>
 		<div id="app">
 			<h1>BarboniaTrains</h1>
-			<input type="number" name="age" id="age" />
-			<input type="number" name="km" id="km" />
-			<button id="btnCalc">Calcola</button>
-			<button id="btnCanc">Cancella</button>
+			<div id="userInfo">
+				<label for="fname">Nome:</label>
+				<input type="text" id="fname" name="fname" />
+				<label for="fname">Cognome:</label>
+				<input type="text" id="lname" name="lname" />
+			</div>
+			<div id="userGoal">
+				<label for="age">Età:</label>
+				<input type="number" name="age" id="age" />
+				<label for="km">Distanza (km):</label>
+				<input type="number" name="km" id="km" />
+			</div>
+			<div id="buttons">
+				<button id="btnCalc">Calcola</button>
+				<button id="btnReset">Reset</button>
+			</div>
+		</div>
+		<div id="resultCard" class="ticket card d-none">
+			<h1>Il tuo biglietto</h1>
 		</div>
 		<script type="text/javascript" src="./js/script.js"></script>
 	</body>
