@@ -62,7 +62,7 @@ buttonReset.addEventListener('click', function () {
 });
 
 document.getElementById('app').style =
-	'color: black; background-color: lightgreen; width: 70%; padding: 20px; margin: 50px auto; border-radius: 10px; text-align: center;';
+	'color: black; background-color: lightgreen; width: 70%; padding: 20px; margin: 0px auto 50px; border-radius: 10px; text-align: center;';
 
 document.getElementById('userInfo').style = 'color: white; padding: 10px 0px;';
 
@@ -71,4 +71,4 @@ document.getElementById('userGoal').style = 'color: white; padding: 10px 0px;';
 document.getElementById('buttons').style = '; padding: 10px 0px 0px;';
 
 document.getElementById('resultCard').style =
-	'color: white; background-color: salmon; width: 70%; padding: 20px; margin: 50px auto; border-radius: 10px; text-align: center; line-height: 1.8;';
+	'color: white; background-color: red; width: 70%; padding: 20px; margin: 50px auto; border-radius: 10px; text-align: center; line-height: 1.8;';
